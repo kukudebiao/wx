@@ -1,0 +1,43 @@
+<!--pages/classify/classify.wxml-->
+<view class="searchbg">
+  <view class="search">
+    <input type="text" placeholder="搜索" class="text1" />
+  </view>
+</view>
+<swiper circular indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{img}}" wx:key="*this">
+    <swiper-item>
+      <image class="img1" src="{{item}}"></image>
+    </swiper-item>
+  </block>
+</swiper>
+<view class="tp">
+  <view>
+    <image src="/icon/fenlei.png"></image>
+    <view>分类</view>
+  </view>
+  <view>
+    <image src="/icon/chuizi.png"></image>
+    <view>秒杀拍</view>
+  </view>
+  <view>
+    <image src="/icon/gouwsc.png"></image>
+    <view>超市购</view>
+  </view>
+  <view>
+    <image src="/icon/muying.png"></image>
+    <view>母婴品</view>
+  </view>
+</view>
+<view class="wz1">时尚女装</view>
+<view class="aa">
+  <view >
+    <image class="tp1" src="https://bpic.588ku.com/Templet_origin_pic/21/07/13/3c11328172d887a8d9b1cdc41c8ab935.jpg"></image>
+  </view>
+  <view>
+    <image class="tp2" src="https://img.zcool.cn/community/01df885c7fb72aa80120af9a6aeddd.jpg@1280w_1l_2o_100sh.jpg"></image>
+    <image class="tp2" src="https://img.zcool.cn/community/01fac05dcc08d7a8012053c0ab40b9.png@1280w_1l_2o_100sh.png"></image>
+    <image class="tp2" src="https://img.zcool.cn/community/01f7a05b29f702a80121bbec9711ec.jpg@1280w_1l_2o_100sh.jpg"></image>
+    <image class="tp2" src="https://img.zcool.cn/community/01e3d05899877da8012060c8261e0e.jpg@1280w_1l_2o_100sh.jpg"></image>
+  </view>
+</view>

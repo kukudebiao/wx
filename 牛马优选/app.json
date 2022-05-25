@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/classify/classify",
+    "pages/trolley/trolley",
+    "pages/mypage/mypage",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#eb4350",
+    "navigationBarTitleText": "牛马优选",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh":true,
+    "navigationStyle":"default"
+  },
+  "tabBar": {
+    "selectedColor": "#d81e06",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "icon/home.png",
+        "selectedIconPath": "icon/_home.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/classify/classify",
+        "iconPath": "/icon/fl.png",
+        "selectedIconPath": "/icon/fl.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/trolley/trolley",
+        "iconPath": "/icon/gowu.png",
+        "selectedIconPath": "/icon/gowu.png",
+        "text": "购物"
+      },
+      {
+        "pagePath": "pages/mypage/mypage",
+        "iconPath": "icon/my.png",
+        "selectedIconPath": "icon/my.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}
